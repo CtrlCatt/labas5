@@ -166,6 +166,11 @@
 			"path" : "C:/Program Files/CMake/share/cmake-3.30/Modules/FetchContent/CMakeLists.cmake.in"
 		},
 		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Program Files/CMake/share/cmake-3.30/Modules/GoogleTest.cmake"
+		},
+		{
 			"isGenerated" : true,
 			"path" : "build/_deps/googletest-src/CMakeLists.txt"
 		},

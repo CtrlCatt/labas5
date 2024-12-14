@@ -3,7 +3,6 @@
 
 CMakeFiles/my_laba_5.dir/main.cpp.obj: C:/labas5/main.cpp \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/atomic \
-  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/backward/auto_ptr.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/backward/binders.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bit \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/align.h \
@@ -53,16 +52,13 @@ CMakeFiles/my_laba_5.dir/main.cpp.obj: C:/labas5/main.cpp \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/predefined_ops.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/ptr_traits.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/range_access.h \
-  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/ranges_algobase.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/ranges_base.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/ranges_cmp.h \
-  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/ranges_uninitialized.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/ranges_util.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/refwrap.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/requires_hosted.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/semaphore_base.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/shared_ptr.h \
-  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/shared_ptr_atomic.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/shared_ptr_base.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/std_abs.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/std_mutex.h \
@@ -75,8 +71,6 @@ CMakeFiles/my_laba_5.dir/main.cpp.obj: C:/labas5/main.cpp \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_iterator_base_funcs.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_iterator_base_types.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_pair.h \
-  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_raw_storage_iter.h \
-  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_tempbuf.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_uninitialized.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_vector.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/streambuf.tcc \
@@ -120,13 +114,10 @@ CMakeFiles/my_laba_5.dir/main.cpp.obj: C:/labas5/main.cpp \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/iostream \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/istream \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/limits \
-  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/memory \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/memory_resource \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/new \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/numbers \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/ostream \
-  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/pstl/execution_defs.h \
-  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/pstl/glue_memory_defs.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/pstl/pstl_config.h \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/ratio \
   C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/semaphore \
@@ -190,15 +181,8 @@ CMakeFiles/my_laba_5.dir/main.cpp.obj: C:/labas5/main.cpp \
   C:/mingw64/x86_64-w64-mingw32/include/vadefs.h \
   C:/mingw64/x86_64-w64-mingw32/include/wchar.h \
   C:/mingw64/x86_64-w64-mingw32/include/wctype.h \
-  C:/labas5/FixedBlockMemoryResource.hpp \
-  C:/labas5/Stack.hpp
+  C:/labas5/FixedBlockMemoryResource.hpp
 
-
-C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/stdlib.h:
-
-C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/atomic_base.h:
-
-C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/backward/auto_ptr.h:
 
 C:/labas5/main.cpp:
 
@@ -232,6 +216,10 @@ C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/ostream_insert.h:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/allocator.h:
 
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/stdlib.h:
+
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/atomic_base.h:
+
 C:/mingw64/x86_64-w64-mingw32/include/swprintf.inl:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/memoryfwd.h:
@@ -253,6 +241,8 @@ C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/invoke.h:
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/range_access.h:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/parse_numbers.h:
+
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/std_thread.h:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/ptr_traits.h:
 
@@ -304,6 +294,10 @@ C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/requires_hosted.h:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/istream.tcc:
 
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/streambuf_iterator.h:
+
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_algobase.h:
+
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/iterator_concepts.h:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h:
@@ -311,6 +305,8 @@ C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/x86_64-w64-mingw32/bits
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/locale_classes.tcc:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/locale_facets.h:
+
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/std_mutex.h:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/locale_facets.tcc:
 
@@ -320,23 +316,17 @@ C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/predefined_ops.h:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/max_size_type.h:
 
-C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/version.h:
-
-C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/shared_ptr_atomic.h:
-
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/memory_resource.h:
+
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_bvector.h:
 
 C:/labas5/FixedBlockMemoryResource.hpp:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/move.h:
 
-C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/ranges_algobase.h:
-
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/ranges_base.h:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/ranges_cmp.h:
-
-C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/ranges_uninitialized.h:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/refwrap.h:
 
@@ -345,16 +335,6 @@ C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/shared_ptr.h:
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/cstdint:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/std_abs.h:
-
-C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/std_mutex.h:
-
-C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/std_thread.h:
-
-C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/streambuf_iterator.h:
-
-C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_algobase.h:
-
-C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_bvector.h:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_function.h:
 
@@ -365,12 +345,6 @@ C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_iterator_base_
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_iterator_base_types.h:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_pair.h:
-
-C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h:
-
-C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_raw_storage_iter.h:
-
-C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_tempbuf.h:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/stl_vector.h:
 
@@ -399,6 +373,8 @@ C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/utility.h:
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/limits.h:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/vector.tcc:
+
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/bits/version.h:
 
 C:/mingw64/x86_64-w64-mingw32/include/ctype.h:
 
@@ -462,8 +438,6 @@ C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/istream:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/limits:
 
-C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/memory:
-
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/memory_resource:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/new:
@@ -473,10 +447,6 @@ C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/numbers:
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/shared_mutex:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/ostream:
-
-C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/pstl/execution_defs.h:
-
-C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/pstl/glue_memory_defs.h:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/pstl/pstl_config.h:
 
@@ -509,6 +479,8 @@ C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/x86_64-w64-mingw32/bits
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h:
+
+C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h:
 
@@ -573,5 +545,3 @@ C:/mingw64/x86_64-w64-mingw32/include/time.h:
 C:/mingw64/x86_64-w64-mingw32/include/wchar.h:
 
 C:/mingw64/x86_64-w64-mingw32/include/wctype.h:
-
-C:/labas5/Stack.hpp:

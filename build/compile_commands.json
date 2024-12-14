@@ -6,6 +6,12 @@
   "output": "CMakeFiles/my_laba_5.dir/main.cpp.obj"
 },
 {
+  "directory": "C:/labas5/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/googltest.dir/includes_CXX.rsp -g -std=c++20 -o CMakeFiles\\googltest.dir\\googltest.cpp.obj -c C:\\labas5\\googltest.cpp",
+  "file": "C:/labas5/googltest.cpp",
+  "output": "CMakeFiles/googltest.dir/googltest.cpp.obj"
+},
+{
   "directory": "C:/labas5/build/_deps/googletest-build/googlemock",
   "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/gmock.dir/includes_CXX.rsp -g -std=c++20 -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gmock.dir\\src\\gmock-all.cc.obj -c C:\\labas5\\build\\_deps\\googletest-src\\googlemock\\src\\gmock-all.cc",
   "file": "C:/labas5/build/_deps/googletest-src/googlemock/src/gmock-all.cc",

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20241129-1124-Experimental"
+	Name="(empty)"
+	Generator="ctest-3.30.3"
+	CompilerName=""
+	CompilerVersion=""
+	OSName="Windows"
+	Hostname="DESKTOP-0MDGV5Q"
+	OSRelease=" Professional"
+	OSVersion=" (Build 22631)"
+	OSPlatform="AMD64"
+	Is64Bits="1"
+	VendorString="AuthenticAMD"
+	VendorID="Advanced Micro Devices"
+	FamilyID="15"
+	ModelID="1"
+	ProcessorCacheSize="64"
+	NumberOfLogicalCPU="24"
+	NumberOfPhysicalCPU="12"
+	TotalVirtualMemory="56468"
+	TotalPhysicalMemory="15508"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="4691"
+	>
+	<Testing>
+		<StartDateTime>Nov 29 14:26 RTZ 2 ([NON-UTF-8-BYTE-0xE7][NON-UTF-8-BYTE-0xE8][NON-UTF-8-BYTE-0xEC][NON-UTF-8-BYTE-0xE0])</StartDateTime>
+		<StartTestTime>1732879574</StartTestTime>
+		<TestList>
+			<Test>./StackTest.Iterator</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>StackTest.Iterator</Name>
+			<Path>.</Path>
+			<FullName>./StackTest.Iterator</FullName>
+			<FullCommandLine>C:\labas5\build\googltest.exe "--gtest_filter=StackTest.Iterator" "--gtest_also_run_disabled_tests"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0054338</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>C:\labas5\build\googltest.exe "--gtest_filter=StackTest.Iterator" "--gtest_also_run_disabled_tests"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyNUMEKgkAQve9XzDEPSl0DD0EhEVhoncTDVpMsrTuxjvX7qUuSYeA7DfPezHszMTEuISIqNMIRK4ab0owWQkhZXu5tK9g2DclkRRb2yCGpjVGmgAVwN2ep/NRVrRgDkfk9cog0naV2PJqnsmRKNI0W2a8fP+LvnX0OkUFyiqFDPhrPcbDfjfIwm0NZeROcnBKYWGpPTLuDUVr/Si8z/NK/74CVJhj6NPEPqzTdrNvznDYQbwS6gKM=</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>Nov 29 14:26 RTZ 2 ([NON-UTF-8-BYTE-0xE7][NON-UTF-8-BYTE-0xE8][NON-UTF-8-BYTE-0xEC][NON-UTF-8-BYTE-0xE0])</EndDateTime>
+		<EndTestTime>1732879574</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

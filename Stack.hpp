@@ -8,7 +8,7 @@ class Stack {
 public:  
     struct Node {
         T value;
-        Node* next;
+        Node* next; //указатель на след элемент узла
     };
 
 private:
@@ -26,7 +26,7 @@ public:
     }
 
     void push(const T& value) {
-        Node* new_node = allocator.allocate(1);
+        Node* new_node = allocator.allocate(1); // указатель на зарезервированный ьлок памяти
         allocator.construct(new_node, Node{value, top_node});
         top_node = new_node;
     }

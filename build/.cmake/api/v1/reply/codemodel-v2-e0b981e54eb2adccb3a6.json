@@ -20,7 +20,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						4
+						2,
+						5
 					]
 				},
 				{
@@ -63,7 +64,7 @@
 				{
 					"build" : "_deps/googletest-build/googletest",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-_deps.googletest-build.googletest-Debug-1bf176a53570d708e943.json",
+					"jsonFile" : "directory-_deps.googletest-build.googletest-Debug-2215e73e8967e38b5b63.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.5"
@@ -73,8 +74,8 @@
 					"source" : "build/_deps/googletest-src/googletest",
 					"targetIndexes" : 
 					[
-						2,
-						3
+						3,
+						4
 					]
 				}
 			],
@@ -93,7 +94,8 @@
 					"name" : "MyGreatProject",
 					"targetIndexes" : 
 					[
-						4
+						2,
+						5
 					]
 				},
 				{
@@ -134,8 +136,8 @@
 					"parentIndex" : 2,
 					"targetIndexes" : 
 					[
-						2,
-						3
+						3,
+						4
 					]
 				}
 			],
@@ -154,6 +156,13 @@
 					"jsonFile" : "target-gmock_main-Debug-908ebdb09c87f1b6d9bb.json",
 					"name" : "gmock_main",
 					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "googltest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-googltest-Debug-da82f0b675d132ce1703.json",
+					"name" : "googltest",
+					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 3,

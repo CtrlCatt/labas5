@@ -28,20 +28,18 @@ set(HEADER_FILES FixedBlockMemoryResource.hpp Stack.hpp)
 add_executable(my_laba_5 ${SOURCE_FILES} ${HEADER_FILES})
 
 # тесты
-#enable_testing()
+enable_testing()
 
-#add_executable(
-#  googltest
-#  googltest.cpp
-#  rectangle.hpp
-#  square.hpp
-#  trapezoid.hpp
-#  array.hpp
-#)
-#target_link_libraries(
-#  googltest
-#  GTest::gtest_main
-#)
+add_executable(
+  googltest
+  googltest.cpp
+  FixedBlockMemoryResource.hpp
+  Stack.hpp
+)
+target_link_libraries(
+  googltest
+  GTest::gtest_main
+)
 
-#include(GoogleTest)
-#,gtest_discover_tests(googltest)
+include(GoogleTest)
+gtest_discover_tests(googltest)

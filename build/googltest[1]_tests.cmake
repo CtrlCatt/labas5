@@ -1,0 +1,7 @@
+add_test([=[FixedBlockMemoryResourceTest.BasicAllocationAndDeallocation]=]  C:/labas5/build/googltest.exe [==[--gtest_filter=FixedBlockMemoryResourceTest.BasicAllocationAndDeallocation]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[FixedBlockMemoryResourceTest.BasicAllocationAndDeallocation]=]  PROPERTIES WORKING_DIRECTORY C:/labas5/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[StackTest.PushPopAndTop]=]  C:/labas5/build/googltest.exe [==[--gtest_filter=StackTest.PushPopAndTop]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[StackTest.PushPopAndTop]=]  PROPERTIES WORKING_DIRECTORY C:/labas5/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[StackTest.Iterator]=]  C:/labas5/build/googltest.exe [==[--gtest_filter=StackTest.Iterator]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[StackTest.Iterator]=]  PROPERTIES WORKING_DIRECTORY C:/labas5/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set(  googltest_TESTS FixedBlockMemoryResourceTest.BasicAllocationAndDeallocation StackTest.PushPopAndTop StackTest.Iterator)

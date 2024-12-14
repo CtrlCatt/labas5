@@ -63,6 +63,7 @@ CMAKE_BINARY_DIR = C:\labas5\build
 
 # The main recursive "all" target.
 all: CMakeFiles/my_laba_5.dir/all
+all: CMakeFiles/googltest.dir/all
 all: _deps/googletest-build/all
 .PHONY : all
 
@@ -72,6 +73,7 @@ preinstall: _deps/googletest-build/preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/my_laba_5.dir/clean
+clean: CMakeFiles/googltest.dir/clean
 clean: _deps/googletest-build/clean
 .PHONY : clean
 
@@ -133,7 +135,7 @@ _deps/googletest-build/googletest/clean: _deps/googletest-build/googletest/CMake
 CMakeFiles/my_laba_5.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_laba_5.dir\build.make CMakeFiles/my_laba_5.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_laba_5.dir\build.make CMakeFiles/my_laba_5.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\labas5\build\CMakeFiles --progress-num=9,10 "Built target my_laba_5"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\labas5\build\CMakeFiles --progress-num=11,12 "Built target my_laba_5"
 .PHONY : CMakeFiles/my_laba_5.dir/all
 
 # Build rule for subdir invocation for target.
@@ -151,6 +153,33 @@ my_laba_5: CMakeFiles/my_laba_5.dir/rule
 CMakeFiles/my_laba_5.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\my_laba_5.dir\build.make CMakeFiles/my_laba_5.dir/clean
 .PHONY : CMakeFiles/my_laba_5.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/googltest.dir
+
+# All Build rule for target.
+CMakeFiles/googltest.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
+CMakeFiles/googltest.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\googltest.dir\build.make CMakeFiles/googltest.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\googltest.dir\build.make CMakeFiles/googltest.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\labas5\build\CMakeFiles --progress-num=5,6 "Built target googltest"
+.PHONY : CMakeFiles/googltest.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/googltest.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\labas5\build\CMakeFiles 6
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/googltest.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\labas5\build\CMakeFiles 0
+.PHONY : CMakeFiles/googltest.dir/rule
+
+# Convenience name for target.
+googltest: CMakeFiles/googltest.dir/rule
+.PHONY : googltest
+
+# clean rule for target.
+CMakeFiles/googltest.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\googltest.dir\build.make CMakeFiles/googltest.dir/clean
+.PHONY : CMakeFiles/googltest.dir/clean
 
 #=============================================================================
 # Target rules for target _deps/googletest-build/googlemock/CMakeFiles/gmock.dir
@@ -212,7 +241,7 @@ _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/clean:
 _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googletest\CMakeFiles\gtest.dir\build.make _deps/googletest-build/googletest/CMakeFiles/gtest.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googletest\CMakeFiles\gtest.dir\build.make _deps/googletest-build/googletest/CMakeFiles/gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\labas5\build\CMakeFiles --progress-num=5,6 "Built target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\labas5\build\CMakeFiles --progress-num=7,8 "Built target gtest"
 .PHONY : _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -238,7 +267,7 @@ _deps/googletest-build/googletest/CMakeFiles/gtest.dir/clean:
 _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googletest\CMakeFiles\gtest_main.dir\build.make _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googletest\CMakeFiles\gtest_main.dir\build.make _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\labas5\build\CMakeFiles --progress-num=7,8 "Built target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\labas5\build\CMakeFiles --progress-num=9,10 "Built target gtest_main"
 .PHONY : _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
 
 # Build rule for subdir invocation for target.

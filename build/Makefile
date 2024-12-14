@@ -64,6 +64,16 @@ CMAKE_BINARY_DIR = C:\labas5\build
 #=============================================================================
 # Targets provided globally by CMake.
 
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running tests..."
+	"C:\Program Files\CMake\bin\ctest.exe" --force-new-ctest-process $(ARGS)
+.PHONY : test
+
+# Special rule for the target test
+test/fast: test
+.PHONY : test/fast
+
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake cache editor..."
@@ -174,6 +184,19 @@ my_laba_5/fast:
 .PHONY : my_laba_5/fast
 
 #=============================================================================
+# Target rules for targets named googltest
+
+# Build rule for target.
+googltest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 googltest
+.PHONY : googltest
+
+# fast build rule for target.
+googltest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\googltest.dir\build.make CMakeFiles/googltest.dir/build
+.PHONY : googltest/fast
+
+#=============================================================================
 # Target rules for targets named gmock
 
 # Build rule for target.
@@ -225,6 +248,30 @@ gtest_main/fast:
 	$(MAKE) $(MAKESILENT) -f _deps\googletest-build\googletest\CMakeFiles\gtest_main.dir\build.make _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/build
 .PHONY : gtest_main/fast
 
+googltest.obj: googltest.cpp.obj
+.PHONY : googltest.obj
+
+# target to build an object file
+googltest.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\googltest.dir\build.make CMakeFiles/googltest.dir/googltest.cpp.obj
+.PHONY : googltest.cpp.obj
+
+googltest.i: googltest.cpp.i
+.PHONY : googltest.i
+
+# target to preprocess a source file
+googltest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\googltest.dir\build.make CMakeFiles/googltest.dir/googltest.cpp.i
+.PHONY : googltest.cpp.i
+
+googltest.s: googltest.cpp.s
+.PHONY : googltest.s
+
+# target to generate assembly for a file
+googltest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\googltest.dir\build.make CMakeFiles/googltest.dir/googltest.cpp.s
+.PHONY : googltest.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -261,11 +308,16 @@ help:
 	@echo ... install/strip
 	@echo ... list_install_components
 	@echo ... rebuild_cache
+	@echo ... test
 	@echo ... gmock
 	@echo ... gmock_main
+	@echo ... googltest
 	@echo ... gtest
 	@echo ... gtest_main
 	@echo ... my_laba_5
+	@echo ... googltest.obj
+	@echo ... googltest.i
+	@echo ... googltest.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

@@ -1,0 +1,29 @@
+Start testing: Nov 29 14:26 RTZ 2 (çèìà)
+----------------------------------------------------------
+3/3 Testing: StackTest.Iterator
+3/3 Test: StackTest.Iterator
+Command: "C:/labas5/build/googltest.exe" "--gtest_filter=StackTest.Iterator" "--gtest_also_run_disabled_tests"
+Directory: C:/labas5/build
+"StackTest.Iterator" start time: Nov 29 14:26 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Note: Google Test filter = StackTest.Iterator
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StackTest
+[ RUN      ] StackTest.Iterator
+[       OK ] StackTest.Iterator (0 ms)
+[----------] 1 test from StackTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"StackTest.Iterator" end time: Nov 29 14:26 RTZ 2 (çèìà)
+"StackTest.Iterator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 29 14:26 RTZ 2 (çèìà)
